@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5f3e9c9527.js" crossorigin="anonymous"></script>
+    <script src="contador.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <header>
+            <h2><a href="" class="logo"  style="color: green">Nerd </a><a href="#" class="logo"">ACADEMY</a></h1>
+                <div class="nav">
+                    <a href="#">Início</a>
+                    <a href="#promo">Produtos</a>
+                    <a href="#content">Cadastro</a>
+                </div>
+        </header>
+<br/><br/>
+        <div class="contagem" >
+            <table>
+                <tr>
+                    <td>
+                        <div class="numero" id="dia"></div>
+                    </td>
+                    </td>
+                    <td>
+                        <div class="numero" id="hora"></div>
+                    </td>
+                    <td>
+                        <div class="numero" id="minuto"></div>
+                    </td>
+                    <td>
+                        <div class="numero" id="segundo"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="legenda">Dias</p>
+                    </td>
+                    <td>
+                        <p class="legenda">Horas</p>
+                    </td>
+                    <td>
+                        <p class="legenda">Min</p>
+                    </td>
+                    <td>
+                        <p class="legenda">Seg</p>
+                    </td>
+                </tr>
+            </table>
+            </table>
+        </div>
+
+        <div class="anuncio">Falta Pouco para iniciarmos a nossa <a  style="color: green">Nerd</a> Friday
+        <p>Confira nossas ofertas</p>
+        </div>
+
+        <div class="promo" id="promo">
+            <div class="container">
+
+                <div class="mySlides">
+                    <img src="assets/luminaria01.jpg" style="width:100%">
+                    <div class="price">
+                        <div>
+                            <h2><a class="link-promo" href="">Luminárias</a></h2>
+                        </div>
+                        <div>
+                            <div><a class="link-promo" href=""><s>R$ 160,00</s></a></div>
+                            <div><a class="link-promo" href="">R$ 99,00</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mySlides">
+                    <img src="assets/camisetas01.jpg" style="width:100%">
+                    <div class="price">
+                        <div>
+                            <h2><a class="link-promo" href="">Camisetas</a></h2>
+                        </div>
+                        <div>
+                            <div><a class="link-promo" href=""><s>R$ 120,00</s></a></div>
+                            <div><a class="link-promo" href="">R$ 49,00</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mySlides">
+                    <img src="assets/caneca.jpg" style="width:100%">
+                    <div class="price">
+                        <div>
+                            <h2><a class="link-promo" href="">Canecas</a></h2>
+                        </div>
+                        <div>
+                            <div><a class="link-promo" href=""><s>R$ 60,00</s></a></div>
+                            <div><a class="link-promo" href="">R$ 25,99</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mySlides">
+                    <img src="assets/chaveiros.jpg" style="width:100%">
+                    <div class="price">
+                        <div>
+                            <h2><a class="link-promo" href="">Chaveiros</a></h2>
+                        </div>
+                        <div>
+                            <div><a class="link-promo" href=""><s>R$ 19,90</s></a></div>
+                            <div><a class="link-promo" href="">R$ 9,99</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mySlides">
+                    <img src="assets/almofadas.jpg" style="width:100%">
+                    <div class="price">
+                        <div>
+                            <h2><a class="link-promo" href="">Almofadas</a></h2>
+                        </div>
+                        <div>
+                            <div><a class="link-promo" href=""><s>R$ 49,90</s></a></div>
+                            <div><a class="link-promo" href="">R$ 25,99</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mySlides">
+                    <img src="assets/quadros.jpg" style="width:100%">
+                    <div class="price">
+                        <div>
+                            <h2><a class="link-promo" href="">Quadros</a></h2>
+                        </div>
+                        <div>
+                            <div><a class="link-promo" href=""><s>R$ 35,99</s></a></div>
+                            <div><a class="link-promo" href="">R$ 23,99</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+            </div>
+        </div>
+        <div class="content" id="content">
+            <div class="info">
+                <h2><a style="color: green" style="text-shadow: 1px 1px 2px white;">NERD</a> FRIDAY<h2>
+                        <span> Ei Nerd, corre aqui!!!!</span>
+                        <div>
+                            <p>Quer ser o primeiro a receber todas as nossas ofertas de black friday no seu email ?
+                                <br />Perde tempo não e preenche esse formulário rigth here!!!
+                            </p>
+
+                            <i id="icon" class="far fa-hand-point-down"></i>
+                            <div class="form" autocomplete="off">
+                                <input class="input" type="text" id="name-input" placeholder="Digite o seu nome">
+                                <input class="input" type="text" id="email-input" placeholder="Digite o seu e-mail">
+                            </div>
+                            <div class="div-btn">
+                                <button onClick="getData()" class="button">Me inscrever</button>
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Desenvolvido por Renan Vanbasten</p>
+
+        <div class="rodape">
+            <nav>
+                <a href="https://web.whatsapp.com/send?phone=5581996843923" target="_blank"><img
+                        src="assets/Whatsapp_icon-icons.com_66931.png" alt=""></a>
+                <a href=https://www.instagram.com/renanvanbasten/" target="_blank"><img
+                        src="assets/3721672-instagram_108066.png" alt=""></a>
+                <a href="https://github.com/RenanVanbasten" target="_blank"><img
+                        src="assets/github_logo_icon_147285.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/renan-vanbasten-bb899817b/" target="_blank"><img
+                        src="assets/linkedin_socialnetwork_17441.png" alt=""></a>
+            </nav>
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
